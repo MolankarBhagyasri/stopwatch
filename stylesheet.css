@@ -1,0 +1,56 @@
+body
+{
+    background-color:lightslategrey;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#container
+{
+    color:black;
+}
+.digit 
+{
+    font-size: 150px;
+    color: azure;
+    font-weight: bold;
+}
+.txt
+{
+    font-size: 40px;
+    font-weight: 40px;
+}
+#btn-container
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.btn
+{
+    padding:7px 25px;
+    font-size: 15px;
+    margin:0px 10px;
+    color:black;
+    font-weight: bold;
+    cursor:pointer;
+}
+#start:hover
+{
+    background:greenyellow;
+    cursor:pointer;
+    border-radius:30px;
+}
+
+#stop:hover
+{
+    background-color:blueviolet;
+    cursor:pointer;
+    border-radius:30px;
+}
+#reset:hover
+{
+    background-color: red;
+    cursor:pointer;
+    border-radius:30px;
+}
