@@ -1,23 +1,23 @@
 body
 {
-   
-    background-color:lightslategrey;
+    background: linear-gradient(to right,violet,pink,lightgreen,lightblue);
     display:flex;
     justify-content: center;
     align-items: center;
     height:100vh;
     
 }
+
 #container
 {
-    color:black;
+    color:blueviolet;
     font-style: italic;
     font-weight: 100px;
 }
 .digit 
 {
     font-size: 100px;
-    color: azure;
+    color:black;
     font-weight: bold;
 
 }
@@ -25,6 +25,7 @@ body
 {
     font-size: 40px;
     font-weight: 40px;
+    color:blueviolet;
 }
 #btn-container
 {
